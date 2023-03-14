@@ -8,7 +8,14 @@ internal class Program
     {
         KodeBuah Search = new KodeBuah();
 
-        Console.WriteLine("Kode " +KodeBuah.Buah.Anggur +  "Adalah " + Search.getKodeBuah(KodeBuah.Buah.Anggur ));
+        Console.WriteLine("Kode " +KodeBuah.Buah.Anggur +  " Adalah " + Search.getKodeBuah(KodeBuah.Buah.Anggur ));
+
+        PosisiKarakterGame Posisi = new PosisiKarakterGame();
+        Posisi.Berdiri();
+        Posisi.Tengkurap();
+        Posisi.Jongkok();
+        Posisi.Terbang();
+
     }
 }
 
